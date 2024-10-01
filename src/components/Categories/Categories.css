@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+
+.categorie-container{
+    background-color: #fff0ef   ;
+    margin-left: 40px;
+    margin-right: 40px;
+    padding-bottom: 100px;
+}
+.caetgorie-header{
+    margin-left: 40px;
+    margin-right: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.Influencer-heading{
+    font-family: "Libre Baskerville", serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #e66517;
+}
+
+.influencers {
+    display: flex;
+    gap: 50px;
+    margin-left: 40px;
+    margin-right: 40px;
+    flex-wrap: nowrap;  
+    overflow-x: auto;  
+    overflow-y: hidden;
+    padding-bottom: 10px; 
+}
+
+.influencers::-webkit-scrollbar {
+    height: 8px;  
+}
+
+.influencers::-webkit-scrollbar-thumb {
+    background-color: #fff0ef;  
+    border-radius: 10px; 
+}
+
+.influencers-card {
+    background-color: #f5f5f5;
+    border-radius: 10px; 
+    padding: 20px;
+    height: 100px;
+    width: 200px;
+    text-align: center;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: row;
+    flex-shrink: 0;  
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+.card-header { 
+    flex-direction: column;   
+    color: white;
+}
+
+.card-image img {
+    width: 270px;
+    margin-top: -100px;
+    margin-left: -50px;
+    border-radius: 10px;
+}
+.categories-button{
+    background-color: whitesmoke;
+    color: black; 
+    border-radius: 15px;
+    padding: 5px 25px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.categories-button:hover {
+    background-color: #c5c5c5;
+}
+@media screen and (max-width: 426px){
+    .categories-button{
+        font-size: 10px;
+        padding: 5px 15px; 
+    }
+    .categorie-container{
+        margin-top: 50px;
+    }
+} 
+@media screen and (max-width: 376px){
+    .categories-button{
+        font-size: 8px;
+        padding: 2px 5px; 
+        margin-right: -20px;
+    }
+    .categorie-container{
+        margin-top: 50px;
+    }
+} 

@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+
+.ugc-section {
+    padding: 40px;
+    background-color: #f8d9ed1a;
+    margin-top: -30px;
+}
+
+.creators-header { 
+    margin-bottom: 20px;
+}
+.creators-header h1{ 
+    background: linear-gradient(to right, rgb(226, 170, 241), rgb(25, 6, 200), rgb(74, 6, 220));
+    -webkit-background-clip: text;
+    color: transparent;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: "Libre Baskerville", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.creators-intro {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    margin-top: 10px;
+}
+
+.view-all-button {
+    background-color: whitesmoke;
+    color: black; 
+    border-radius: 15px;
+    padding: 5px 25px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.view-all-button:hover {
+    background-color: #c5c5c5;
+}
+
+.creators-cards {
+    display: flex;
+    gap: 20px; /* Space between cards */
+    overflow-x: auto; /* Enable horizontal scrolling */
+    padding-bottom: 10px; /* Padding to prevent scrollbar overlap */
+    white-space: nowrap; /* Prevent line breaks, so cards stay in a row */
+    scrollbar-width: thin; /* For Firefox - Make the scrollbar thin */
+    scrollbar-color: #fcfcfc #f7f7f7; /* For Firefox - Scrollbar color */
+    box-shadow: 1px 5px 10px #b9b5b5;
+}
+
+.creators-cards::-webkit-scrollbar {
+    height: 10px; /* Height of scrollbar */
+}
+
+.creators-cards::-webkit-scrollbar-thumb {
+    background-color: #ffffff; /* Color of scrollbar thumb */
+    border-radius: 10px; /* Rounded scrollbar */
+}
+
+.creators-cards::-webkit-scrollbar-track {
+    background-color: #d02929; /* Color of scrollbar track */
+}
+
+.creator-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f7f7f7;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    width: 250px; /* Fixed width for each card */
+    flex: none; /* Prevent cards from stretching */
+    white-space: normal; /* Allows card content to wrap inside the card */
+    box-shadow: 1px 5px 10px #b9b5b5;
+}
+
+.creator-image {
+    width: 100%;
+    height: 450px; 
+    object-fit: cover;
+    margin-bottom: 15px;
+    margin-top: -80px;
+}
+
+.creator-details { 
+    display: flex;
+    flex-direction: row;
+    justify-items: end;
+    gap: 60px;
+    margin-top: -100px;
+}
+
+.creator-name-badge {
+    display: flex;
+    flex-direction: column;
+     justify-content: center;  
+} 
+
+.creator-social {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.social-icon {
+    font-size: 1.5rem;
+    color: #5125b0;
+}
+
+.compare-button {
+    margin-top: 15px;
+    background-color: #5125b0;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    padding: 5px 5px;
+    margin-top: 10px;
+    cursor: pointer;
+    font-size: 10px;
+    transition: background-color 0.3s;
+}
+
+.compare-button:hover { 
+    background-color: #9f7aed;
+}
+
+.apps{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    margin-top: 30px;
+    gap: 80px;
+}
+.divider {
+    border: none; /* Remove default border */
+    border-top: 1px solid #ccc;  
+    margin-bottom: -20px;
+    width: 100%; /* Make it full width */
+}

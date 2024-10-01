@@ -1,0 +1,19 @@
+.AllOne {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%; /* Use full width of the parent container */
+    height: 100vh; /* Full viewport height */
+     
+}
+
+.AllOne img {
+    width: 100%;
+    object-fit: cover; 
+    /* margin-left: -140px; */
+}
+@media screen and (max-width: 768px){
+    .AllOne {
+        margin-top: -100px;
+    }
+}

@@ -1,0 +1,22 @@
+.HS5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%; /* Use full width of the parent container */
+    height: 100vh; /* Full viewport height */
+     
+}
+.HS5 img{
+    width: 100%;
+    object-fit: cover;  
+}
+@media screen and (max-width: 768px){
+    .HS5{
+        margin-top: -100px;
+    }
+}
+@media screen and (max-width: 426px){
+    .HS5{
+        margin-top: -150px;
+    }
+}

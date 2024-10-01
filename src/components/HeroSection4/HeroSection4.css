@@ -1,0 +1,25 @@
+.HS4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%; /* Use full width of the parent container */
+    height: 100vh; /* Full viewport height */
+     
+}
+.HS4 img{
+    width: 100%;
+    object-fit: cover;  
+}
+@media screen and (max-width: 768px){
+    .HS4{
+        margin-top: -200px; 
+    }
+    .HS4 img{
+        width: 99%; 
+    }
+}
+@media screen and (max-width: 426px){
+    .HS4{
+        margin-top: -300px;
+    }
+}
