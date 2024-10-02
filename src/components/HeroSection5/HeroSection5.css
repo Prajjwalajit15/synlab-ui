@@ -20,3 +20,8 @@
         margin-top: -150px;
     }
 }
+@media screen and (max-width: 450px){
+    .HS5{
+        margin-top: -200px;
+    }
+}

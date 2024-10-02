@@ -100,3 +100,14 @@
         margin-top: 50px;
     }
 } 
+@media screen and (max-width: 350px){
+    .categories-button{
+        font-size: 8px;
+        padding: 1px 12px; 
+        margin-right: -20px;
+    } 
+    .Influencer-heading{
+        margin-left: -35px;
+        margin-right: 10px;
+    } 
+} 

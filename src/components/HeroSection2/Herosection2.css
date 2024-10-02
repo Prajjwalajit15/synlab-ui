@@ -17,3 +17,8 @@
         margin-top: -100px;
     }
 }
+@media screen and (max-width: 350px){
+    .AllOne {
+        margin-top: -180px; 
+    } 
+}

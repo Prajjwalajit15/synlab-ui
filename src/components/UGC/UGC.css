@@ -142,3 +142,16 @@
     margin-bottom: -20px;
     width: 100%; /* Make it full width */
 }
+@media screen and (max-width: 450px){
+    .ugc-section{
+        margin-top: -130px; 
+    } 
+    .creators-header h1{
+        margin-left: 38px;
+        background: linear-gradient(to right, rgb(197, 34, 243), rgb(96, 40, 237), rgb(74, 6, 220));
+        -webkit-background-clip: text;
+    color: transparent;
+    font-size: 50px;
+    font-weight: bold;
+    }
+}
